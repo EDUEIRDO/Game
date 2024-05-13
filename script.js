@@ -28,10 +28,6 @@ const loop = setInterval(() => {
 
         grama.style.animation = 'none';
 
-        persona.src = 'imgs/gameover.png';
-        persona.style.width = '75px';
-        persona.style.margin = '50px';
-
         clearInterval(loop);
     }
 }, 10);

@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+#esquerda {
+    transform: scaleX(-1);
+}
 
 .game-board{
     top: 50px;
